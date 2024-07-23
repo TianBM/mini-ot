@@ -1,0 +1,28 @@
+{
+  "name": "mini-ot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "ts-node server.ts",
+    "client": "ts-node client.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@teamwork/websocket-json-stream": "^2.0.0",
+    "express": "^4.19.2",
+    "http": "^0.0.1-security",
+    "lodash": "^4.17.21",
+    "reconnecting-websocket": "^4.4.0",
+    "sharedb": "^5.0.2",
+    "typescript": "^5.5.4",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.7",
+    "@types/node": "^20.14.11",
+    "ts-node": "^10.9.2"
+  }
+}
